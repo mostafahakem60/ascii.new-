@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smali Translator</string>
+    
+    <!-- File operations -->
+    <string name="select_file">Select Smali File</string>
+    <string name="select_multiple">Select Multiple Files</string>
+    <string name="export_result">Export Result</string>
+    <string name="share_result">Share Result</string>
+    
+    <!-- Translation -->
+    <string name="translating">Translating…</string>
+    <string name="translation_complete">Translation complete</string>
+    <string name="translation_failed">Translation failed</string>
+    
+    <!-- Batch processing -->
+    <string name="batch_processing">Processing batch…</string>
+    <string name="batch_complete">Batch processing complete</string>
+    <string name="batch_cancelled">Batch processing cancelled</string>
+    <string name="batch_progress">%1$d of %2$d files processed</string>
+    <string name="cancel_batch">Cancel Batch</string>
+    
+    <!-- Validation errors -->
+    <string name="error_empty_file">File is empty</string>
+    <string name="error_not_smali">File does not appear to be in Smali format</string>
+    <string name="error_malformed">File contains malformed Smali syntax</string>
+    <string name="error_file_too_large">File size exceeds maximum allowed size</string>
+    <string name="error_invalid_encoding">File encoding is not supported</string>
+    <string name="error_missing_class">File is missing class definition</string>
+    
+    <!-- Export -->
+    <string name="export_success">Exported to %s</string>
+    <string name="export_failed">Export failed</string>
+    <string name="include_explanation">Include explanation</string>
+    
+    <!-- Cache -->
+    <string name="cache_hit">Using cached translation</string>
+    <string name="cache_cleared">Cache cleared</string>
+</resources>
