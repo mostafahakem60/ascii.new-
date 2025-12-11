@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smali-translator"
+version = "0.1.0"
+description = "Smali parsing and translation engine"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "cto.new"}]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["smali-translator/src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["smali-translator/src"]
