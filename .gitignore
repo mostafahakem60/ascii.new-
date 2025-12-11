@@ -1,0 +1,95 @@
+# Gradle files
+.gradle/
+build/
+gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+
+# IntelliJ
+*.swp
+*.swo
+*~
+.classpath
+.project
+.settings
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+buildOutputs/
+reports/
+
+# Kotlin/Java build outputs
+*.jar
+*.zip
+*.so
+*.dll
+*.dylib
+*.exe
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android Virtual Devices
+.android/
+.emulator_console_auth_token
+
+# Proguard
+proguard/
+proguard-rules.pro
+
+# Keystore
+*.jks
+*.keystore
+
+# Misc
+*.log
+*.tmp
+*.bak
+~.xml
+
+# Generated files
+gen/
+src/gen/
+
+# Test coverage
+coverage/
+.coverage
+*.cov
+
+# IDE
+.vscode/
+.idea/
+
+# Node modules (if web components are used)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# environment
+.env
+.env.local
+
+# Signing files
+signing.properties
+keystore.jks
