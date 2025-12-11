@@ -118,17 +118,13 @@ android-multimodule/
 - **Key Features:** Coroutine-based async translation
 
 ### Arabic Explainer Module (`:libraries:arabic-explainer`)
-- **Purpose:** Arabic word definition and explanation
+- **Purpose:** Generate detailed Arabic technical explanations for Smali instructions/methods.
 - **Responsibilities:**
-  - Fetching and explaining Arabic words
-  - Managing Arabic language data
-  - Providing word pronunciation and translations
-- **Architecture Layers:**
-  - **Data Layer:** ArabicRepository + ArabicWord model
-  - **Domain Layer:** ExplainArabicWordUseCase (business logic)
-  - **Presentation Layer:** ArabicViewModel (UI state management)
-- **DI:** Hilt modules in `di/ArabicModule.kt`
-- **Serialization:** Kotlinx Serialization for ArabicWord model
+  - Consuming translator output/IR or raw Smali text
+  - Producing per-instruction and full-method step-by-step narratives in Arabic
+  - Handling malformed/unsupported Smali with localized Arabic issue descriptions
+  - Ensuring correct RTL formatting while embedding LTR tokens (e.g., `v0`, `p0`, method refs)
+- **Core API:** `ArabicSmaliExplainer` (see `libraries/arabic-explainer/README.md`)
 
 ## MVVM Architecture Pattern
 
