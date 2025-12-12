@@ -50,6 +50,9 @@ fun MainApp() {
                     }
                 )
             }
+            composable("workspace") {
+                com.example.androidmultimodule.ui.workspace.CodeWorkspaceRoute()
+            }
         }
     }
 }

@@ -26,8 +26,8 @@ fun HomeScreen(
 
         Spacer(modifier = Modifier.height(24.dp))
 
-        Button(onClick = { }) {
-            Text("Smali Translator")
+        Button(onClick = { onNavigate("workspace") }) {
+            Text("Open Code Workspace")
         }
 
         Spacer(modifier = Modifier.height(16.dp))
